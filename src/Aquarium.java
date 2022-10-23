@@ -15,7 +15,7 @@ public class Aquarium extends Frame implements Runnable{
 	Image[] fishImages = new Image[4];
 	MediaTracker tracker;
 	Thread thread;
-	int numberFish = 12;
+	int numberFish = 16;
 	int sleepTime = 110;
 	Vector<Fish> fishes = new Vector<>();
 	boolean runOK = true;
